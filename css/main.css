@@ -1,0 +1,13 @@
+body {
+  background-color: #fbfbfb;
+  width: 100%;
+}
+
+.container{
+  background-color: #0973ba;
+  color: white;
+  box-sizing: border-box;
+  padding: 2%;
+  width: 45%;
+  margin: 1% auto;
+}
