@@ -3,11 +3,27 @@ body {
   width: 100%;
 }
 
-.container{
+fieldset,
+fieldset input,
+.block
+button {
+    display: block;
+}
+
+.container {
   background-color: #0973ba;
   color: white;
   box-sizing: border-box;
   padding: 2%;
   width: 45%;
   margin: 1% auto;
+}
+
+form #info {
+    display: block;
+}
+
+input:focus {
+    outline: none !important;
+    border:2px solid #f7941d;
 }

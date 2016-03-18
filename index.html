@@ -10,9 +10,22 @@
 </head>
 <body>
   <div class="container">
-    <p>
-      I am centered on the page
-    </p>
+    <form id="info" action="" method="post">
+        <fieldset>
+            <legend>name</legend>
+            <input type="text" name="name" value="first" required="required" autofocus/>
+            <input type="text" name="lastName" value="last" required="required" />
+        </fieldset>
+        <div class="block">
+            <span>email</span>
+            <input type="email" name="email" value="email" required="required" />
+        </div>
+        <div class="block">
+            <span>message</span>
+            <input type="text" name="message" value="message"/>
+        </div>
+        <button type="button" name="submitButton">Submit</button>
+  </form>
   </div>
     <script src="js/main.js"></script>
 </body>
