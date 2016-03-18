@@ -1,6 +1,6 @@
 body {
-  background-color: #fbfbfb;
-  width: 100%;
+    background-color: #fbfbfb;
+    width: 100%;
 }
 
 fieldset,
@@ -11,12 +11,12 @@ button {
 }
 
 .container {
-  background-color: #0973ba;
-  color: white;
-  box-sizing: border-box;
-  padding: 2%;
-  width: 45%;
-  margin: 1% auto;
+    background-color: #0973ba;
+    color: white;
+    box-sizing: border-box;
+    padding: 2%;
+    width: 45%;
+    margin: 1% auto;
 }
 
 form #info {
@@ -24,6 +24,6 @@ form #info {
 }
 
 input:focus {
-    outline: none !important;
-    border:2px solid #f7941d;
+    outline: none;
+    border: 2px solid #f7941d;
 }
