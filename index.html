@@ -11,21 +11,24 @@
 </head>
 <body>
   <div class="container">
+    <h1>Contact Form</h1>
+    <p>
+        Please fill out this simple form. Thanks!
+    </p>
     <form id="info" action="" method="post">
-        <fieldset>
-            <legend><i class="fa fa-user"></i></legend>
-            <input type="text" name="name" value="first" required="required" autofocus/>
-            <input type="text" name="lastName" value="last" required="required" />
-        </fieldset>
-        <div class="block">
-            <span><i class="fa fa-envelope"></i></span>
-            <input type="email" name="email" value="email" required="required" />
-        </div>
-        <div class="block">
-            <span><i class="fa fa-pencil-square-o"></i></span>
-            <input type="text" name="message" value="message"/>
-        </div>
-        <button type="button" name="submitButton">Submit</button>
+
+        <span><i class="fa fa-user"></i></span>
+        <input type="text" name="name" value="first" required="required" autofocus id ="firstName"/>
+
+        <input type="text" name="lastName" value="last" required="required" id="lastName"/>
+
+        <span><i class="fa fa-envelope"></i></span>
+        <input type="email" name="email" value="email" required="required" id="email"/>
+
+        <span><i class="fa fa-pencil-square-o"></i></span>
+        <textarea rows="6" cols="25">message</textarea>
+
+        <button type="button" name="submitButton" id="submit">Submit</button>
   </form>
   </div>
     <script src="js/main.js"></script>
