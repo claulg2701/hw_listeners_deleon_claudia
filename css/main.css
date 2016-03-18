@@ -15,8 +15,8 @@ button {
     color: white;
     box-sizing: border-box;
     padding: 2%;
-    width: 45%;
-    margin: 1% auto;
+    width: 90%;
+    margin: 5% auto;
 }
 
 form #info {
@@ -26,4 +26,24 @@ form #info {
 input:focus {
     outline: none;
     border: 2px solid #f7941d;
+}
+
+fieldset,
+.block {
+    padding: 0 0.6em 0.4em;
+    width: 90%;
+}
+
+input {
+    width: 85%;
+    margin: 0.5em 0;
+    padding: 0.5em 0 0.5em 0.2em;
+}
+
+i {
+    padding: 0.2em;
+}
+
+fieldset input {
+    margin-left: calc(0.5em + 16px);
 }
