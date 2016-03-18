@@ -1,6 +1,11 @@
 body {
     background-color: #fbfbfb;
     width: 100%;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.2em;
+    color: #777777;
 }
 
 input,
@@ -34,6 +39,15 @@ textarea {
     margin: 0.5em;
     padding: 0.5em 0.2em;
     box-sizing: border-box;
+}
+
+textarea {
+    border: 2px solid #ffffff;
+}
+
+input:hover,
+textarea:hover {
+    border: 2px solid #f7941d;
 }
 
 i {
