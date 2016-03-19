@@ -1,1 +1,17 @@
+body {
+    background-color: #fbfbfb;
+    width: 100%;
+}
 
+section {
+    width: 90%;
+    margin: 2em auto;
+}
+
+figure {
+    margin-bottom: 1em;
+}
+
+img {
+    width: 100%;
+}
