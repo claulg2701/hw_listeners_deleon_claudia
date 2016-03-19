@@ -1,9 +1,5 @@
-function clickMe() {
 
-}
-
-function doubleClickMe() {}
-
+/* These events can be accomplished with CSS using the psudo class hover */
 function hoverOverMe() {
     var img = document.getElementById( 'f1' );
     if ( img.className === 'hover' ) {
@@ -11,15 +7,29 @@ function hoverOverMe() {
     }else {
         img.className = 'hover';
     }
-
 }
 
 var imageOne = document.getElementById( 'f1' );
 imageOne.addEventListener( 'mouseenter', hoverOverMe );
 imageOne.addEventListener( 'mouseleave', hoverOverMe );
 
+/* Toogle grayscale for image by clicking on it */
+function clickMe() {
+    var img = document.getElementById( 'f2' );
+    if ( img.className === 'grayscale' ) {
+            img.className = '';
+    }else {
+        img.className = 'grayscale';
+    }
+}
+
 var imageTwo = document.getElementById( 'f2' );
-imageOne.addEventListener( 'dblclick', doubleClickMe );
+imageTwo.addEventListener( 'click', clickMe );
+
+/* Double click will update the url for this image */
+function doubleClickMe() {
+
+}
 
 var imageThree = document.getElementById( 'f3' );
-imageOne.addEventListener( 'click', clickMe );
+imageThree.addEventListener( 'dblclick', doubleClickMe );
