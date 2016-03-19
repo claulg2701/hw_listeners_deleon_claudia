@@ -29,11 +29,7 @@ imageTwo.addEventListener( 'click', clickMe );
 /* Double click will update the url for this image */
 function doubleClickMe() {
     var img = document.getElementById( 'f3' );
-    if ( img.src === '../img/img4.jpg' ) {
-        img.src = '../img/img3.jpg';
-    }else {
-        img.src = '../img/img4.jpg';
-    }
+    img.src = '../img/img4.jpg';
 }
 
 var imageThree = document.getElementById( 'f3' );
