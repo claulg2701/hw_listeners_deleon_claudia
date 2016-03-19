@@ -1,8 +1,18 @@
-function clickMe() {}
+function clickMe() {
+
+}
 
 function doubleClickMe() {}
 
-function hoverOverMe() {}
+function hoverOverMe() {
+    var img = document.getElementById( 'f1' );
+    if ( img.className === 'hover' ) {
+            img.className = '';
+    }else {
+        img.className = 'hover';
+    }
+
+}
 
 var imageOne = document.getElementById( 'f1' );
 imageOne.addEventListener( 'mouseenter', hoverOverMe );
