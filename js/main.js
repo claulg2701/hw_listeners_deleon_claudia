@@ -7,5 +7,5 @@ function logFormToConsole ( event ) {
     console.log( 'The message is: ' + document.getElementById( 'message' ).value );
 }
 
-var onSubmit = document.getElementById( 'submitBtn' );
-onSubmit.addEventListener( 'click', logFormToConsole, false );
+var myForm = document.getElementById( 'info' );
+myForm.addEventListener( 'click', logFormToConsole, false );
