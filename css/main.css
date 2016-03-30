@@ -1,0 +1,38 @@
+body {
+    background-color: #fbfbfb;
+    width: 100%;
+}
+
+section {
+    width: 90%;
+    max-width: 900px;
+    margin: 2em auto;
+}
+
+figure {
+    margin-bottom: 1em;
+}
+
+img {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.hover {
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+}
+
+.grayscale {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+@media all and (min-width: 600px) {
+    figure {
+        display: table-cell;
+    }
+    img {
+        width: calc(100% - 1em);
+    }
+}
