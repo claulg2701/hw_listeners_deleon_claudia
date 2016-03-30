@@ -1,11 +1,10 @@
 
 /* These events can be accomplished with CSS using the psudo class hover */
 function hoverOverMe() {
-    var img = document.getElementById( 'f1' );
-    if ( img.className === 'hover' ) {
-            img.className = '';
+    if ( imageOne.className === 'hover' ) {
+            imageOne.className = '';
     }else {
-        img.className = 'hover';
+        imageOne.className = 'hover';
     }
 }
 
@@ -15,11 +14,10 @@ imageOne.addEventListener( 'mouseleave', hoverOverMe );
 
 /* Toogle grayscale for image by clicking on it */
 function clickMe() {
-    var img = document.getElementById( 'f2' );
-    if ( img.className === 'grayscale' ) {
-            img.className = '';
+    if ( imageTwo.className === 'grayscale' ) {
+            imageTwo.className = '';
     }else {
-        img.className = 'grayscale';
+        imageTwo.className = 'grayscale';
     }
 }
 
@@ -28,8 +26,7 @@ imageTwo.addEventListener( 'click', clickMe );
 
 /* Double click will update the url for this image */
 function doubleClickMe() {
-    var img = document.getElementById( 'f3' );
-    img.src = '../img/img4.jpg';
+    imageThree.src = '../img/img4.jpg';
 }
 
 var imageThree = document.getElementById( 'f3' );
