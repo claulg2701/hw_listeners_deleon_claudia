@@ -8,4 +8,4 @@ function logFormToConsole ( event ) {
 }
 
 var onSubmit = document.getElementById( 'submitBtn' );
-onSubmit.addEventListener( 'click', logFormToConsole, false );
+onSubmit.addEventListener( 'submit', logFormToConsole, false );
